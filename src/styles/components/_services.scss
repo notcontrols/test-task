@@ -1,0 +1,23 @@
+.services {
+  .services__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px transparent;
+    transition: background-color .3s ease-out;
+    .services__image {
+      margin: 0 15px;
+    }
+    .services__description {
+      font-family: 'Arial', sans-serif;
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 700;
+      color: #3c4148;
+    }
+    &:hover {
+      border: solid 1px #e6e6e6;
+      background-color: #eeeeee
+    }
+  }
+}

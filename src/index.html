@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test task</title>
+
+    <link rel="stylesheet" href="css/app.min.css" />
+  </head>
+  <body>
+    <header class="border-bottom">
+      <div class="container d-flex flex-wrap align-items-center">
+        <a
+          href="/"
+          class="d-flex align-items-center me-lg-auto text-decoration-none logo"
+        >
+          <img
+            src="./img/dest/logo.png"
+            alt="logo"
+            class="d-inline-block mb-2 mb-lg-0 logo__image"
+          />
+          <div class="logo__content">
+            <div class="logo__title">Логотип</div>
+            <div class="logo__sub-title">Инжиниринговая компания</div>
+          </div>
+        </a>
+        <form class="col-12 col-lg-auto">
+          <div class="input-group">
+            <input
+              class="form-control border-end-0 border"
+              type="text"
+              id="example-search-input"
+            />
+            <span class="input-group-append">
+              <button
+                class="
+                  btn btn-outline-secondary
+                  bg-white
+                  border-start-0 border
+                  ms-n2
+                "
+                type="button"
+              >
+                <i class="fa fa-search"></i>
+              </button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </header>
+    <nav>
+      <div class="container d-flex flex-wrap">
+        <ul class="nav m-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link p-3 active">О компании</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link p-3">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link p-3">Объекты</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link p-3">Закупки</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link p-3">Партнеры</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link p-3">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link p-3">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="border-bottom">
+      <div class="container">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/dest/slides/slide1.png"
+                class="d-block w-100"
+                alt="slide1"
+              />
+              <div class="carousel-caption d-none d-lg-block">
+                <div class="carousel__spacer">Наши компетенции</div>
+                <div class="carousel__header">
+                  Объекты <br />
+                  химимческой <br />
+                  промышленности
+                </div>
+                <p class="carousel__text">
+                  Важнейшим преимуществом компании является способность
+                  проектировать и строить «под ключ». При этом данные процессы
+                  ведутся одновременно, что позволяет заказчику значительно
+                  сократить общий строительный цикл объекта.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/dest/slides/slide1.png"
+                class="d-block w-100"
+                alt="slide2"
+              />
+              <div class="carousel-caption d-none d-lg-block">
+                <div class="carousel__spacer">Наши компетенции</div>
+                <div class="carousel__header">Second slide</div>
+                <p class="carousel__text">
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/dest/slides/slide1.png"
+                class="d-block w-100"
+                alt="slide3"
+              />
+              <div class="carousel-caption d-none d-lg-block">
+                <div class="carousel__spacer">Наши компетенции</div>
+                <div class="carousel__header">Third slide</div>
+                <p class="carousel__text">
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gx-0 services">
+          <div class="col py-5 services__card">
+            <img
+              src="./img/dest/services/сircle.png"
+              alt="сircle"
+              class="services__image"
+            />
+            <div class="services__description">Услуги проектирования</div>
+          </div>
+          <div class="col py-5 services__card">
+            <img
+              src="./img/dest/services/сrane.png"
+              alt="сrane"
+              class="services__image"
+            />
+            <div class="services__description">Строительно - монтажные работы</div>
+          </div>
+          <div class="col py-5 services__card">
+            <img
+              src="./img/dest/services/worker.png"
+              alt="worker"
+              class="services__image"
+            />
+            <div class="services__description">Экспертная деятельность</div>
+          </div>
+          <div class="col py-5 services__card">
+            <img
+              src="./img/dest/services/instuents.png"
+              alt="instuents"
+              class="services__image"
+            /><div class="services__description">Техническое обслуживание</div>
+          </div>
+          <div class="col py-5 services__card">
+            <img
+              src="./img/dest/services/microscope.png"
+              alt="microscope"
+              class="services__image"
+            /><div class="services__description">Испытательная лаборатория</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

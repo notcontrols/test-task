@@ -1,0 +1,19 @@
+.nav-link {
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #293038;
+  &:hover {
+    background-color: #f29700;
+    color: #fff;
+  }
+  &.active {
+    background-color: #3c4148;
+    color: #fff;
+  }
+}
